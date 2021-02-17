@@ -4,6 +4,9 @@ import Home from './pages/Home';
 import Footer from './footer/footer';
 import { Route, Switch } from 'react-router-dom';
 import Profile from './pages/profile_page';
+import Chart from './Chart';
+import ProductCatagory from "./pages/product_catagory";
+import "react-table"; 
 
 function App() {
   return (
@@ -32,6 +35,8 @@ function App() {
           <Switch>
             <Route exact path='/' component={() => {return <Home />}} />
             <Route exact path='/profile' component={() => {return <Profile />}} />
+            <Route exact path='/chart' component={() => {return <Chart />}} />
+            <Route exact path='/product-catagory' component={() => {return <ProductCatagory />}} />
           </Switch>
             
 

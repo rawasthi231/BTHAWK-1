@@ -176,11 +176,13 @@ Page Header
         /* Dark version */ }
         .page-header.navbar .top-menu .navbar-nav > li.dropdown {
           margin: 0px;
-          padding: 0px 4px;
           height: 50px;
-          display: inline-block; }
-          .page-header.navbar .top-menu .navbar-nav > li.dropdown:last-child {
-            padding-right: 0px; }
+          display: inline-block; 
+        }
+
+        .page-header.navbar .top-menu .navbar-nav > li.dropdown:last-child {
+            padding-right: 0px; 
+        }
           .page-header.navbar .top-menu .navbar-nav > li.dropdown > .dropdown-toggle {
             margin: 0px;
             padding: 19px 10px 10px 10px; }

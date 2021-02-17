@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './sidebar.css';
 
 const Sidebar = () => {
@@ -209,10 +210,10 @@ const Sidebar = () => {
                                 </a>
                             </li>
                             <li className="nav-item  ">
-                                <a href="elements_steps.html" className="nav-link ">
+                                <Link to="/product-catagory" className="nav-link " style={{textDecoration: 'none'}}>
                                     <i className="fa fa-hand-o-right"></i>
                                     <span className="title">Catagory</span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item  ">
                                 <a href="elements_steps.html" className="nav-link ">

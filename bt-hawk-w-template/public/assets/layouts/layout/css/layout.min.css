@@ -1121,10 +1121,12 @@
     margin-top:0
 }
 .page-content{
-    margin-top:0;padding:0;background-color:#fff
+    margin-top:0;
+    padding:0;
+    background-color:#fff;
 }
 .page-container-bg-solid .page-content{
-    background:#fff
+    background:#f4f6f9;
 }
 .page-content-white .page-content .page-bar{
     border-bottom: none;

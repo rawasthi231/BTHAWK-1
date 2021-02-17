@@ -6,12 +6,10 @@ const Profile = () => {
     return (
         
         
-        <li className="dropdown dropdown-user">
-            <Link to='/profile' style={{textDecoration:'none', display: 'inline-block'}}>
-                <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+        <li className="dropdown dropdown-user" style={{padding: '0'}}>
+            <Link to='/profile' style={{textDecoration:'none', display: 'inline-block', padding: '10px'}}>
                     <img alt="" className="img-circle" src="./assets/layouts/layout/img/avatar3_small.jpg" />
-                    <span className="username username-hide-on-mobile"> Profile </span>
-                </a> 
+                    <span className="username username-hide-on-mobile">&nbsp; Profile </span>
             </Link>    
         </li> 
         

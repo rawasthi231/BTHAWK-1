@@ -1,21 +1,22 @@
 .page-header.navbar{
-    background-color:#e4531d;
+    background-color:#ffffff;
+    border-bottom: 1px solid #eee !important;
 }
 
 .page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle>i{
-    color:#79869a;
+    color:#1c237e;
 }
 
 .page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle .badge.badge-default{
-    background-color:#1c237e;
+    background-color:#e4531d;
     color:#fff;
 }
 
 .page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover,.page-header.navbar .top-menu .navbar-nav>li.dropdown.open .dropdown-toggle{
-    background-color:rgba(255,255,255,.5);
+    
     border: none;
-    border-radius: 20px;
-    color: white;
+    border-radius: 12px !important;
+    color: #e4531d;
 }
 
 .page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover>i,.page-header.navbar .top-menu .navbar-nav>li.dropdown.open .dropdown-toggle>i{

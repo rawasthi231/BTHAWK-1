@@ -19,6 +19,9 @@
     font-weight: 500;
     color: #666;
 }
-.active{
+.profile_active{
     border-bottom: 2px solid #e4531d;
+}
+.tabItems{
+    display: none;
 }

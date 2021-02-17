@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './home.css';
+import './css/home.css';
 import { Container, Row, Col, Card, CardTitle, CardBody, CardHeader } from 'reactstrap';
-import Style from './main.module.css';
 import $ from 'jquery';
 
 class Home extends Component {
